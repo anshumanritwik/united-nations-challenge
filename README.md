@@ -19,15 +19,15 @@ Another variation present in the solution is that of the years being taken into 
 - The first approach is to include all the 35 years provided
 - The second approach involves considering the most recent three or four years to enhance the quality of predictions
       - This approach can again have two variations :- 
-            -> considering the most recent three years and adding the predicted year's value after every iteration
-            eg. 1st iteration y= [[2005],[2006],[2007]] for predicting 2008 
-                2nd iteration y= [[2005],[2006],[2007],[2008]] for predicting 2009 and so on
-            -> conidering only the most recent three years 
-            eg. 1st iteration y= [[2005],[2006],[2007]] for predicting 2008
-                2nd iteration y= [[2006],[2007],[2008]] for predicting 2009 and so on.
+            - considering the most recent three years and adding the predicted year's value after every iteration
+                  -eg. 1st iteration y= [[2005],[2006],[2007]] for predicting 2008 
+                       2nd iteration y= [[2005],[2006],[2007],[2008]] for predicting 2009 and so on
+            - conidering only the most recent three years 
+                  -eg. 1st iteration y= [[2005],[2006],[2007]] for predicting 2008
+                       2nd iteration y= [[2006],[2007],[2008]] for predicting 2009 and so on.
                 
  
- ##CONCLUSION
- Ridge regression with the second variation of years has produced the best result for me so far.
- Random forest regression is another successful regression technique for this problem.
- This problem can also be solved as a typical time series problem. 
+-CONCLUSION
+      -Ridge regression with the second variation of years has produced the best result for me so far.
+      -Random forest regression is another successful regression technique for this problem.
+      -This problem can also be solved as a typical time series problem. 
