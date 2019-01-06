@@ -2,16 +2,18 @@
 
 open competition on driven data
 
-The above competition is based on prediction of  values for the specified indicators one and five year into the future. The indicators are a part of the larger goals as specified by Unitd Nations. For more details on the challenge please visit the following link :- https://www.drivendata.org/competitions/1/united-nations-millennium-development-goals/
+The above competition is based on prediction of  values for the specified indicators one and five year into the future. The indicators are a part of the larger goals as specified by Unitd Nations.
+For more details on the challenge please visit the following link
+- https://www.drivendata.org/competitions/1/united-nations-millennium-development-goals/
 
-Considering the predictive nature of the problem, The techniques used in the associated jupyter notebook include different variations of regression namely-
+Considering the predictive nature of the problem, The techniques used in the associated jupyter notebook include different variations of regression namely
 
-1.LARS regression
-2.LASSO regression
-3.RIDGE regression
-4.ELASTIC NET 
-5.Simple Linear regression
-6.ARD regression
+- LARS regression
+- LASSO regression
+- RIDGE regression
+- ELASTIC NET 
+- Simple Linear regression
+- ARD regression
 
 The available solution has been broken down to elaborate each step from pre-processing to the model evaluation process. 
 
